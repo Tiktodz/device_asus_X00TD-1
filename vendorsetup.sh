@@ -4,6 +4,7 @@ rm -rf vendor/asus
 rm -rf hardware/qcom-caf/msm8998/audio
 rm -rf hardware/qcom-caf/msm8998/display
 rm -rr hardware/qcom-caf/msm8998/media
+rm -rf device/asus/X00TD
 
 git clone --depth=1 https://github.com/inexdroid/hardware_qcom-caf_msm8998_audio -b 14 hardware/qcom-caf/msm8998/audio
 git clone --depth=1 https://github.com/inexdroid/hardware_qcom-caf_msm8998_display -b 14 hardware/qcom-caf/msm8998/display
