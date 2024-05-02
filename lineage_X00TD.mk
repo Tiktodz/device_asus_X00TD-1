@@ -14,14 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Matrixx
-MATRIXX_BUILD_TYPE := Unofficial
-MATRIXX_MAINTAINER := dotkit
-MATRIXX_CHIPSET := SDM660
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 1080x2160
+#MATRIXX_BUILD_TYPE := Unofficial
+#MATRIXX_MAINTAINER := dotkit
+#MATRIXX_CHIPSET := SDM660
+#MATRIXX_BATTERY := 5000mAh
+#MATRIXX_DISPLAY := 1080x2160
 
 # Gapps
-WITH_GMS := false
+#WITH_GMS := false
 TARGET_GAPPS_ARCH := arm64
 #BUILD_GOOGLE_MESSAGE := true
 
